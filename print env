@@ -1,5 +1,7 @@
 #!/bin/bash
 #print the env of the process
+#writen by --lijunqi
+
 read -p "process name:" process
 process_id=$(pgrep $process)
 #no using ifs
