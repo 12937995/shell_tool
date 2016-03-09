@@ -1,5 +1,5 @@
 # shell_tool
-#tools writen by shell
+#tools writen for shell
 echo "# shell_tool" >> README.md
 git init
 git add README.md
