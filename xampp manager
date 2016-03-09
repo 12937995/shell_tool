@@ -1,6 +1,7 @@
 #!/bin/sh
 #xampp manager
 #writen by --lijunqi
+
 case "$1" in
 #start xampp service
 "1")
