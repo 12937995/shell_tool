@@ -1,0 +1,13 @@
+#!/bin/bash
+#print the env of the process
+read -p "process name:" process
+process_id=$(pgrep $process)
+#no using ifs
+#oldIFS=$IFS
+for item in $process_id;
+do
+echo -e "\e[1;42m The env of "$item" is:\e[0m"
+cat /proc/$item/environ | tr '\0' '\n'
+done
+#IFS=$oldIFS
+
